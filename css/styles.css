@@ -7,6 +7,77 @@ Article {
   width: 50%;
 }
 
+ 
+.main-container {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  background: grey;
+    
+}
+
+.flex {
+  position: flex;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.navagation {
+  margin: 20px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  width: 960px;
+  height: 120px;
+}
+
+.discription {
+  background: pink ;
+  width: 175px;
+  height: 395px;
+  margin: 20px;
+  margin-top: 40px;
+  margin-left: 50px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.image {
+  
+  width: 680px;
+  height: 700px;
+  margin: -415px 290px 20px;
+}
+
+img {
+  width: 680px;
+  height: 650px;
+}
+
+.instagram {
+  width: 50px;
+  height: 50px;
+  margin-top: 120px;
+  margin-left: 10px;
+  background: black;
+}
+
+.tumblr {
+  width: 50px;
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 114px;
+  background: black;
+}
+
+nav {
+  margin-left: 50px;
+  padding: 50px;
+}
+
+a:link {
+  font-size: 20px;
+  margin: 50px;
+  text-decoration: none;
+}
 
 /********************
 MEDIA QUERIES
