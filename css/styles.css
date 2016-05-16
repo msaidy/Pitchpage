@@ -2,40 +2,57 @@
 YOUR STYLES
 *******************/
 
-Article {
+article {
   
-  width: 50%;
+  width: 100%;
 }
 
+body{
+    
+     background-image: url("../img/footer_lodyas.png");
+}
  
 .main-container {
   display: flex;
   width: 1000px;
   margin: 0 auto;
-  background: grey;
     
+   background-image: url("../img/footer_lodyas.png");
+
 }
 
+header{
+  
+  width: 200px;
+  height: px;
+  margin-top: 30px; 
+  margin-left: 15px;
+   font-family: font-family: 'Arimo', sans-serif;
+    font-size:2em;
+    color: #281A1A; 
+    
+}
 .flex {
   position: flex;
   align-content: center;
+    width: 1000px;
   margin: 0 auto;
 }
 
 .navagation {
   margin: 20px;
   margin-top: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 960px;
   height: 120px;
 }
 
-.discription {
-  background: pink ;
-  width: 175px;
-  height: 395px;
+.description {
+  background: #4E2D28;
+width: 200px;
+  height: 450px;
   margin: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 50px;
   box-shadow: 2px 2px 5px black;
 }
@@ -50,50 +67,113 @@ Article {
 img {
   width: 680px;
   height: 650px;
+    border: 7px solid #281A1A;
 }
+
+
+
+.contact{
+    
+    margin-left: 12px;
+}
+
 
 .instagram {
   width: 50px;
   height: 50px;
-  margin-top: 120px;
-  margin-left: 10px;
-  background: black;
+  margin-top: 30px;
+  margin-left: 3px;
+  background-image: url("../img/iconmonstr-instagram-8.svg");
+    background-repeat: no-repeat;
+    background-size: cover
 }
+
 
 .tumblr {
   width: 50px;
   height: 50px;
   margin-top: -50px;
-  margin-left: 114px;
-  background: black;
+  margin-left: 125px;
+  background-image: url("../img/iconmonstr-tumblr-4.svg");
+    background-repeat: no-repeat;
+    background-size: cover
 }
+
+.email {
+  width: 50px;
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 66px;
+  background-image: url("../img/iconmonstr-email-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+p{
+    
+   margin-top: 10px; 
+    margin-left: 10px;
+    font-size: 15px;;
+}
+
+
 
 nav {
-  margin-left: 50px;
-  padding: 50px;
+  margin-left: 350px;
+  padding: 70px;
+   
 }
 
+.navlinks {
+        
+        text-decoration: none;
+        color: darkgrey;
+        text-transform: uppercase;
+        letter-spacing: 2px;    
+    }
+
+nav a:hover{
+        
+        color: #70454E;
+    }
+
+    
+
 a:link {
-  font-size: 20px;
-  margin: 50px;
+  
   text-decoration: none;
+     margin-top: 40px; 
+    margin-left: 50px;
+    text-transform: uppercase;
+   color: darkgrey;
+}
+
+a:hover {
+  
+  color: #70454E;
+}
+
+
+
+.fchar{
+  color:#70454E;
+    font-size: 40px;
+    font-family: font-family: 'Arimo', sans-serif;
 }
 
 /********************
 MEDIA QUERIES
 *******************/
 
-/* Desktop */
-@media (min-width: 1200px) {
-
-}
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
+    
+    
 }
 
 /* Mobile */
-@media (min-width: 480px) {
+@media (max-width: 480px) {
 
 }
