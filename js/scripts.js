@@ -21,13 +21,11 @@ var img3 = 'img/Img%204.jpg';
 
 var img4 = 'img/Img%205.jpg';
 
-var img5 = 'img/Img%206.jpg';
-
-var img6 = 'img/Img%207.jpg';
+var img5 = 'img/Img%207.jpg';
 
 
 
-var ranNum = Math.floor(Math.random()*7);
+var ranNum = Math.floor(Math.random()*6);
 
 $('img').attr('src', eval('img' + ranNum));
 
