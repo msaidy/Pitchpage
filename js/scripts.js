@@ -27,7 +27,7 @@ var img6 = 'img/Img%207.jpg';
 
 
 
-var ranNum = Math.floor(Math.random() * 6);
+var ranNum = Math.floor(Math.random()*7);
 
 $('img').attr('src', eval('img' + ranNum));
 
